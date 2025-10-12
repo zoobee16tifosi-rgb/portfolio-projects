@@ -40,16 +40,16 @@ A/B 테스트로 개선 전략을 검증했습니다.
 ---
 
 ## 📁 파일 구조
-├── mobile_user_cohort_ab_test.ipynb    # 전체 분석 코드
-├── user_behavior_dataset.csv            # 데이터 (700명)
-└── sql_queries/                         # SQL 쿼리 3개
-├── 01_battery_efficiency_calculation.sql
-├── 02_cohort_segmentation.sql
-└── 03_cohort_class_analysis.sql
+├── mobile_user_cohort_ab_test.ipynb    # 전체 분석 코드 \n
+├── user_behavior_dataset.csv            # 데이터 (700명) \n
+└── sql_queries/                         # SQL 쿼리 3개 \n
+├── 01_battery_efficiency_calculation.sql \n
+├── 02_cohort_segmentation.sql \n
+└── 03_cohort_class_analysis.sql \n
 
 ---
 
 ## 📚 데이터 출처
 
-[Kaggle - Mobile Device Usage and User Behavior Dataset]
+[Kaggle - Mobile Device Usage and User Behavior Dataset] \n
 (https://www.kaggle.com/datasets/valakhorasani/mobile-device-usage-and-user-behavior-dataset)
