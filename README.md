@@ -10,7 +10,7 @@
 
 Retention 개선을 위해 모바일 사용자 데이터를 탐색하던 중, 배터리 소모 패턴과 이탈의 연관성을 발견했습니다.
 
-"배터리 효율"이라는 신규 지표를 개발하여 숨겨진 이탈 위험군을 식별하고,  
+**"배터리 효율"**이라는 신규 지표를 개발하여 숨겨진 이탈 위험군을 식별하고,  
 A/B 테스트로 개선 전략을 검증했습니다.
 
 ---
@@ -40,16 +40,16 @@ A/B 테스트로 개선 전략을 검증했습니다.
 ---
 
 ## 📁 파일 구조
-├── mobile_user_cohort_ab_test.ipynb    # 전체 분석 코드 \n
-├── user_behavior_dataset.csv            # 데이터 (700명) \n
-└── sql_queries/                         # SQL 쿼리 3개 \n
-├── 01_battery_efficiency_calculation.sql \n
-├── 02_cohort_segmentation.sql \n
-└── 03_cohort_class_analysis.sql \n
-
----
+mobile-user-cohort-ab-test/
+├── mobile_user_cohort_ab_test.ipynb
+├── user_behavior_dataset.csv
+└── sql_queries/
+    ├── 01_battery_efficiency_calculation.sql
+    ├── 02_cohort_segmentation.sql
+    └── 03_cohort_class_analysis.sql
 
 ## 📚 데이터 출처
 
-[Kaggle - Mobile Device Usage and User Behavior Dataset] \n
+[Kaggle - Mobile Device Usage and User Behavior Dataset]
+
 (https://www.kaggle.com/datasets/valakhorasani/mobile-device-usage-and-user-behavior-dataset)
